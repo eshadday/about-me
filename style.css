@@ -1,0 +1,27 @@
+body {
+	background-color: purple;
+	text-align: center;
+	background-image: url(https://www.planetware.com/wpimages/2020/07/new-york-best-waterfalls-taughannock-falls.jpg);
+}
+div{
+	margin: auto;
+}
+img{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.intro {
+	background-color: orange;
+}
+.Features {
+	box-shadow: 10px 10px black;
+	border:  1px yellow solid;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+@media screen and (max-width: 480px) {
+	body{
+		background-color: darkred;
+		
+	}
+}
